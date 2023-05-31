@@ -21,7 +21,6 @@ const About = () => {
               agency, rather than abstract assemblies of anthropomorphized
               atoms. This is my first attempt...
             </p>
-            <p></p>
             <Link to="/contact" className="btn">
               Contact
             </Link>
