@@ -1,7 +1,7 @@
 import * as React from "react";
 import Layout from "../components/Layout.js";
 import { StaticImage } from "gatsby-plugin-image";
-import AllRecipes from "../components/AllRecipes.js";
+// import AllRecipes from "../components/AllRecipes.js";
 import Seo from "../components/seo.js";
 
 export default function Home() {
@@ -11,20 +11,20 @@ export default function Home() {
       <main className="page">
         <header className="hero">
           <StaticImage
-            src="../assets/images/main.jpeg"
-            alt="eggs"
+            src="..assets/images/ship.png"
+            alt="ship"
             class="hero-img"
             placeholder="traceSVG"
             layout="fullWidth"
           ></StaticImage>
           <div className="hero-container">
             <div className="hero-text">
-              <h1>Simply Recipes</h1>
-              <h4>no fluff, just recipes</h4>
+              <h1>The Sybyline</h1>
+              <h4>by MJ McGuiness</h4>
             </div>
           </div>
         </header>
-        <AllRecipes />
+        {/* <AllRecipes /> */}
       </main>
     </Layout>
   );
