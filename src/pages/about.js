@@ -16,32 +16,18 @@ const About = ({
         <section className="about-page">
           <article>
             <h2>About the Author</h2>
-            <p>
-              
-            </p>
-            <p>
-              Tumeric 3 wolf moon shoreditch palo santo. DSA cardigan pour-over,
-              velit id sint snackwave VHS. Godard quis in trust fund. Meditation
-              in quinoa, vaporware bitters tbh tacos raclette fit readymade
-              exercitation hammock consectetur skateboard reprehenderit. Seitan
-              tofu butcher single-origin coffee chambray vape selvage taxidermy.
-              Sustainable shabby chic cliche exercitation. Fanny pack VHS
-              crucifix, yr dolore do shoreditch pok pok hella edison bulb etsy.
-            </p>
+            <p></p>
+            <p></p>
             <Link to="/contact" className="btn">
               Contact
             </Link>
           </article>
           <StaticImage
-            src="../assets/images/about.jpeg"
-            alt="Person"
+            src="../assets/images/about.jpg"
+            alt="author"
             className="about-img"
             placeholder="blurred"
           />
-        </section>
-        <section className="featured-recipes">
-          <h5>look at this Awesome recipes!</h5>
-          <RecipesList recipes={recipes} />
         </section>
       </main>
     </Layout>
