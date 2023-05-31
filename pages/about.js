@@ -15,15 +15,9 @@ const About = ({
       <main className="page">
         <section className="about-page">
           <article>
-            <h2>Dummy text? More like dummy thicc text, amirite?</h2>
+            <h2>About the Author</h2>
             <p>
-              I'm baby flannel YOLO small batch in dolor street art anim qui
-              sunt ut gorpcore drinking vinegar fugiat vape. Brooklyn lomo
-              marxism vape beard microdosing subway tile. Cray est taxidermy
-              heirloom locavore bushwick cupping gentrify swag pinterest fit.
-              Tofu chartreuse viral kale chips palo santo 90's duis ramps.
-              Austin vice yuccie pour-over roof party PBR&B reprehenderit labore
-              twee tattooed seitan franzen id.
+              
             </p>
             <p>
               Tumeric 3 wolf moon shoreditch palo santo. DSA cardigan pour-over,
