@@ -1,40 +1,23 @@
 import React from "react";
 import { graphql } from "gatsby";
-import RecipesList from "../components/RecipesList";
+import CharactersList from "../components/CharactersList";
 import Layout from "../components/Layout";
 import Seo from "../components/seo.js";
 
 const TagTemplate = ({ data, pageContext }) => {
-  const recipes = data.allContentfulRecipe.nodes;
-  return (
-    <Layout>
-      <Seo title={pageContext.tag} />
-      <main className="page">
-        <h2>{pageContext.tag}</h2>
-        <div className="tag-recipes">
-          <RecipesList recipes={recipes} />
-        </div>
-      </main>
-    </Layout>
-  );
+  // const Characters = data.allContentfulRecipe.nodes;
+  // return (
+  //   <Layout>
+  //     <Seo title={pageContext.tag} />
+  //     <main className="page">
+  //       <h2>{pageContext.tag}</h2>
+  //       <div className="tag-recipes">
+  //         <RecipesList recipes={recipes} />
+  //       </div>
+  //     </main>
+  //   </Layout>
+  // );
 };
 
-export const query = graphql`
-  query GetRecipeByTag($tag: String) {
-    allContentfulRecipe(
-      sort: { title: ASC }
-      filter: { content: { tags: { eq: $tag } } }
-    ) {
-      nodes {
-        title
-        id
-        cookTime
-        prepTime
-        image {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: DOMINANT_COLOR)
-        }
-      }
-    }
-  }
-`;
+export const query = graphql``;
 export default TagTemplate;
