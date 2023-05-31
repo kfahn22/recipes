@@ -3,15 +3,15 @@ import Layout from "../components/Layout";
 import AllRecipes from "../components/AllRecipes";
 import Seo from "../components/seo.js";
 
-const Recipes = () => {
+const Characters = () => {
   return (
     <Layout>
-      <Seo title="Recipes " />
+      <Seo title="Main Characters " />
       <main className="page">
-        <AllRecipes />
+        {/* <AllRecipes /> */}
       </main>
     </Layout>
   );
 };
 
-export default Recipes;
+export default Characters;
