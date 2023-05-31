@@ -11,7 +11,16 @@ const About = () => {
         <section className="about-page">
           <article>
             <h2>About the Author</h2>
-            <p></p>
+            <p>
+              As a professional chemist for over thirty years, it has been my
+              job to explain the needs and desires, the loves and the hates, the
+              habits and quirks of inanimate molecules — perverse little motes
+              with their own individual personalities. As I move into
+              retirement, I’m trying my hand at writing about the needs,
+              desires, loves, hates, habits and quirks of people with actual
+              agency, rather than abstract assemblies of anthropomorphized
+              atoms. This is my first attempt...
+            </p>
             <p></p>
             <Link to="/contact" className="btn">
               Contact
