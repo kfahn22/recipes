@@ -1,7 +1,10 @@
 exports.components = {
   "component---cache-dev-404-page-js": () => import("./../../dev-404-page.js?export=default" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-404-js": () => import("./../../../src/pages/404.js?export=default" /* webpackChunkName: "component---src-pages-404-js" */),
-  "component---src-pages-about-js": () => import("./../../../src/pages/about.js?export=default" /* webpackChunkName: "component---src-pages-about-js" */),
+  "component---src-pages-about-mj-js": () => import("./../../../src/pages/about_MJ.js?export=default" /* webpackChunkName: "component---src-pages-about-mj-js" */),
+  "component---src-pages-about-the-illustrator-js": () => import("./../../../src/pages/about_the_illustrator.js?export=default" /* webpackChunkName: "component---src-pages-about-the-illustrator-js" */),
+  "component---src-pages-about-the-sequels-js": () => import("./../../../src/pages/about_the_sequels.js?export=default" /* webpackChunkName: "component---src-pages-about-the-sequels-js" */),
+  "component---src-pages-artwork-js": () => import("./../../../src/pages/artwork.js?export=default" /* webpackChunkName: "component---src-pages-artwork-js" */),
   "component---src-pages-bookclub-js": () => import("./../../../src/pages/bookclub.js?export=default" /* webpackChunkName: "component---src-pages-bookclub-js" */),
   "component---src-pages-characters-aubrey-crew-obrian-js": () => import("./../../../src/pages/characters/aubrey_crew/Obrian.js?export=default" /* webpackChunkName: "component---src-pages-characters-aubrey-crew-obrian-js" */),
   "component---src-pages-characters-guards-captain-bulwer-js": () => import("./../../../src/pages/characters/Guards/Captain_Bulwer.js?export=default" /* webpackChunkName: "component---src-pages-characters-guards-captain-bulwer-js" */),
@@ -16,7 +19,7 @@ exports.components = {
   "component---src-pages-characters-sybyline-kitren-js": () => import("./../../../src/pages/characters/Sybyline/Kitren.js?export=default" /* webpackChunkName: "component---src-pages-characters-sybyline-kitren-js" */),
   "component---src-pages-characters-sybyline-marbeth-js": () => import("./../../../src/pages/characters/Sybyline/Marbeth.js?export=default" /* webpackChunkName: "component---src-pages-characters-sybyline-marbeth-js" */),
   "component---src-pages-contact-js": () => import("./../../../src/pages/contact.js?export=default" /* webpackChunkName: "component---src-pages-contact-js" */),
-  "component---src-pages-contest-js": () => import("./../../../src/pages/contest.js?export=default" /* webpackChunkName: "component---src-pages-contest-js" */),
+  "component---src-pages-contests-js": () => import("./../../../src/pages/contests.js?export=default" /* webpackChunkName: "component---src-pages-contests-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js?export=default" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-tags-js": () => import("./../../../src/pages/tags.js?export=default" /* webpackChunkName: "component---src-pages-tags-js" */)
 }

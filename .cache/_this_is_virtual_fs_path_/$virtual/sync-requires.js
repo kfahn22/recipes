@@ -6,7 +6,10 @@ const preferDefault = m => (m && m.default) || m
 exports.components = {
   "component---cache-dev-404-page-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/404.js")),
-  "component---src-pages-about-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/about.js")),
+  "component---src-pages-about-mj-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/about_MJ.js")),
+  "component---src-pages-about-the-illustrator-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/about_the_illustrator.js")),
+  "component---src-pages-about-the-sequels-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/about_the_sequels.js")),
+  "component---src-pages-artwork-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/artwork.js")),
   "component---src-pages-bookclub-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/bookclub.js")),
   "component---src-pages-characters-aubrey-crew-obrian-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/characters/aubrey_crew/Obrian.js")),
   "component---src-pages-characters-guards-captain-bulwer-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/characters/Guards/Captain_Bulwer.js")),
@@ -21,7 +24,7 @@ exports.components = {
   "component---src-pages-characters-sybyline-kitren-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/characters/Sybyline/Kitren.js")),
   "component---src-pages-characters-sybyline-marbeth-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/characters/Sybyline/Marbeth.js")),
   "component---src-pages-contact-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/contact.js")),
-  "component---src-pages-contest-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/contest.js")),
+  "component---src-pages-contests-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/contests.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/index.js")),
   "component---src-pages-tags-js": preferDefault(require("/Users/kathrynfahnline/Documents/GitHub/the-sybyline/src/pages/tags.js"))
 }

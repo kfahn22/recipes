@@ -10,7 +10,7 @@ export default function Home() {
       <main className="page">
         <header className="hero">
           <StaticImage
-            src="..assets/images/ship.png"
+            src="src/assets/images/ship.png"
             alt="ship"
             class="hero-img"
             placeholder="traceSVG"
@@ -35,7 +35,7 @@ export default function Home() {
                 — not magic — thwart their efforts. Emor devolves into chaos
                 just as Josip and Margerai are forced into a journey on the high
                 seas to faraway islands with the two most dangerous Sybyline
-                women as companions.{" "}
+                women as companions.
               </p>
             </div>
           </div>
