@@ -1,54 +1,11 @@
-import React from "react";
-import Layout from "../components/Layout";
-import Seo from "../components/seo.js";
+import React from 'react'
 
-const Characters = () => {
+const characters = () => {
   return (
-    <Layout>
-      <Seo title="Characters " />
-      <section>
-        <h2>Major Characters</h2>
-        <article>
-          <img alt="Josip"></img>
-          <h3>Josip</h3>
-          <quote></quote>
-        </article>
-        <article>
-          <img alt="Marerai"></img>
-          <h3>Margerai</h3>
-          <quote></quote>
-        </article>
-        <article>
-          <img alt="Premier"></img>
-          <h3>Premier</h3>
-          <quote></quote>
-        </article>
-        <article>
-          <img alt="Kitren"></img>
-          <h3>Kitren</h3>
-          <quote></quote>
-        </article>
-        <article>
-          <img alt="Marbeth"></img>
-          <h3>Marbeth</h3>
-          <quote></quote>
-        </article>
-        <article>
-          <img alt="Lehsa"></img>
-          <h3>Lehsa</h3>
-          <quote></quote>
-        </article>
-        <article>
-          <img alt="Marina"></img>
-          <h3>Marina</h3>
-          <quote></quote>
-        </article>
-      </section>
-      <section>
-        <h2>Minor Characters</h2>
-      </section>
-    </Layout>
-  );
-};
+    <div>
+      
+    </div>
+  )
+}
 
-export default Characters;
+export default characters

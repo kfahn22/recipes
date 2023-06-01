@@ -1,7 +1,7 @@
 import React from "react";
 
-const contest = () => {
+const aboutMJ = () => {
   return <div></div>;
 };
 
-export default contest;
+export default aboutMJ;
