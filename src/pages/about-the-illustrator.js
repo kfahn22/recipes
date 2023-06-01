@@ -1,6 +1,6 @@
 import React from "react";
 
-const about_the_illustrator = () => {
+const aboutTheIllustrator = () => {
   return (
     <div>
       <h1>About the Illustrator</h1>
@@ -13,4 +13,4 @@ const about_the_illustrator = () => {
   );
 };
 
-export default about_the_illustrator;
+export default aboutTheIllustrator;
