@@ -11,7 +11,7 @@ export default function Home() {
         <header className="hero">
           <StaticImage
             src="src/assets/images/ship.png"
-            alt="ship"
+            alt="book-cover"
             class="hero-img"
             placeholder="traceSVG"
             layout="fullWidth"

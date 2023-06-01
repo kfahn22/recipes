@@ -1,9 +1,9 @@
-import React from "react";
-import Layout from "../components/Layout";
-import { graphql, Link } from "gatsby";
-import setupTags from "../utils/setupTags";
-import slugify from "slugify";
-import Seo from "../components/seo";
+// import React from "react";
+// import Layout from "../components/Layout";
+// import { graphql, Link } from "gatsby";
+// import setupTags from "../utils/setupTags";
+// import slugify from "slugify";
+// import Seo from "../components/seo";
 
 // const Tags = ({ data }) => {
 //   // const newTags = setupTags(data.allContentfulRecipe.nodes);
