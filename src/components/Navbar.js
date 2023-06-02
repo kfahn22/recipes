@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
 import { FaAlignJustify } from "react-icons/fa";
+import logo from "../assets/images/logo.svg";
 const Navbar = () => {
   const [show, setShow] = useState(false);
   return (
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <Link to="/"></Link>
+          <Link to="/">
+            <img src={logo} alt="The Sybylines" />
+          </Link>
           <button className="nav-btn" onClick={() => setShow(!show)}>
             <FaAlignJustify />
           </button>
@@ -26,12 +29,28 @@ const Navbar = () => {
             Characters
           </Link>
           <Link
+            to="/exerpt"
+            className="nav-link"
+            activeClassName="active-link"
+            onClick={() => setShow(false)}
+          >
+            Excerpt
+          </Link>
+          <Link
             to="/aboutMJ"
             className="nav-link"
             activeClassName="active-link"
             onClick={() => setShow(false)}
           >
-            About MJ
+            About
+          </Link>
+          <Link
+            to="/about-the-illustrator"
+            className="nav-link"
+            activeClassName="active-link"
+            onClick={() => setShow(false)}
+          >
+            Illustration
           </Link>
           <div className="nav-link contact-link">
             <Link to="/contact" className="btn">
