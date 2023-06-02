@@ -2,14 +2,20 @@ import React from "react";
 import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
-import Seo from "../components/seo.js";
-const About = () => {
+
+const aboutMJ = () => {
   return (
     <Layout>
-      <Seo title="About" />
+      {/* <Seo title="About" /> */}
       <main className="page">
         <section className="about-page">
           <article>
+            <StaticImage
+              src="../assets/images/about.jpg"
+              alt="author"
+              className="about-img"
+              placeholder="blurred"
+            />
             <h2>About the Author</h2>
             <p>
               As a professional chemist for over thirty years, it has been my
@@ -25,16 +31,10 @@ const About = () => {
               Contact
             </Link>
           </article>
-          <StaticImage
-            src="../assets/images/about.jpg"
-            alt="author"
-            className="about-img"
-            placeholder="blurred"
-          />
         </section>
       </main>
     </Layout>
   );
 };
 
-export default About;
+export default aboutMJ;

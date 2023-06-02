@@ -1,47 +1,41 @@
 import React from "react";
 import Layout from "../components/Layout";
-import Seo from "../components/seo.js";
+import { graphql } from "gatsby";
+import SEO from "../components/seo";
 
-const Contact = ({ data }) => {
+const Contact = () => {
   return (
     <Layout>
-      <Seo title="Contact " />
+      <SEO title="Contact" />
       <main className="page">
-        <section className="">
+        <section className="contact-page">
           <article className="contact-info">
             <h3>Are you interested in being a beta reader?</h3>
             <p>
-              I am looking for beta readers for my book. If you are interested,
-              please contact me.
+              If you are interested in having an exclusive first look at The
+              Sybylines, please leave your contact information and we will get
+              back to you.
             </p>
           </article>
           <article>
-            <form
-              className="form contact-form"
-              action="https://formspree.io/f/xlekkqkk"
-              method="POST"
-            >
+            <form className="form contact-form">
               <div className="form-row">
                 <label htmlFor="name">your name</label>
                 <input type="text" name="name" id="name" />
               </div>
               <div className="form-row">
                 <label htmlFor="email">your email</label>
-                <input type="text" name="name" id="name" />
+                <input type="text" name="email" id="email" />
               </div>
               <div className="form-row">
                 <label htmlFor="message">message</label>
                 <textarea name="message" id="message"></textarea>
-                <button type="submit" className="btn block">
-                  Submit
-                </button>
               </div>
+              <button type="submit" className="btn block">
+                submit
+              </button>
             </form>
           </article>
-        </section>
-        <section className="featured-recipes">
-          <h5>look at this Awesome recipes!</h5>
-          <RecipesList recipes={recipes} />
         </section>
       </main>
     </Layout>

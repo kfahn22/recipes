@@ -1,15 +1,16 @@
 import React from "react";
-
+import Layout from "../components/Layout";
 const aboutTheIllustrator = () => {
   return (
-    <div>
-      <h1>About the Illustrator</h1>
-      <p>
-        Liesel McGuiness is a animator and illustrator. She style preference
-        leans toward graphic and cartoon art, but she made an exception to help
-        her dad out.
-      </p>
-    </div>
+    <Layout>
+      <main>
+        <h2>About the Illustrations</h2>
+        <p>
+          The illustrations are by the author's daughter Liesel McGuiness, who
+          is an animator and illustrator.  
+        </p>
+      </main>
+    </Layout>
   );
 };
 
